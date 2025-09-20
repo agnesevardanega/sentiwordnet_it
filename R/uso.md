@@ -1,7 +1,7 @@
 ---
 title: "Uso del dataset in R"
-author: "Agnese Vardanega <avardanega@unite.it"
-date: "2025-09-18
+author: "Agnese Vardanega <avardanega@unite.it>"
+date: "2025-09-18"
 ---
 
 # Uso del dataset in R
