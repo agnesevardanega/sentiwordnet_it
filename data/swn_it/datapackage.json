@@ -1,0 +1,52 @@
+{
+  "resources": [
+    {
+      "name": "swn_it",
+      "path": "swn_it.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "pos",
+            "type": "string"
+          },
+          {
+            "name": "offset",
+            "type": "number"
+          },
+          {
+            "name": "synset",
+            "type": "string"
+          },
+          {
+            "name": "pos_score",
+            "type": "number"
+          },
+          {
+            "name": "neg_score",
+            "type": "number"
+          },
+          {
+            "name": "obj_score",
+            "type": "number"
+          },
+          {
+            "name": "lemmi_it",
+            "type": "string"
+          },
+          {
+            "name": "lemmi_en",
+            "type": "string"
+          },
+          {
+            "name": "gloss",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

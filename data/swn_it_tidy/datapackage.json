@@ -1,0 +1,32 @@
+{
+  "resources": [
+    {
+      "name": "swn_it_tidy",
+      "path": "swn_it_tidy.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "lemma",
+            "type": "string"
+          },
+          {
+            "name": "pos_score",
+            "type": "number"
+          },
+          {
+            "name": "neg_score",
+            "type": "number"
+          },
+          {
+            "name": "obj_score",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
