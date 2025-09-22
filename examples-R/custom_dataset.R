@@ -5,6 +5,7 @@
 
 # to change the treatment of the lemmi_it column --------------------
 
+library(tidyverse)
 swn_it <- read_csv("data/swn_it/swn_it.csv")
 
 my_swn_df <- swn_it %>%
