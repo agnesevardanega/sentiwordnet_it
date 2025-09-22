@@ -7,7 +7,7 @@ swn_it_tidy <- read_csv("data/swn_it_tidy/swn_it_tidy.csv")
 
 ## Frase di esempio
 # "Questa giornata è iniziata con un bellissimo sole, ma un evento 
-# terribile ha rovinato tutto. Che peccato."
+# terribile ha rovinato tutto. Che peccato." 
 
 # dataframe with lemmas from the example sentence
 lemmi_esempio <- tibble(

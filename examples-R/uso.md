@@ -98,7 +98,7 @@ sentiment_frase %>%
 # A tibble: 1 × 4
      id pos_score neg_score obj_score
   <dbl>     <dbl>     <dbl>     <dbl>
-1     1     0.114     0.138     0.749
+1     1     0.106     0.142     0.752
 ```
 
 Punteggio medio per documento:

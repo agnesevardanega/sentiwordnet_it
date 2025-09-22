@@ -3,7 +3,7 @@
 
 [![](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-orange.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-A sentiment lexical resource for italian, based on SentiWordNet 3.0 and
+A sentiment lexical resource for Italian, based on SentiWordNet 3.0 and
 MultiWordNet.
 
 ## Description
@@ -23,9 +23,9 @@ The included files, in the `data/` folder are:
 It also contains a folder with examples in R, and scripts to use and
 manipulate the datasets:
 
-- **`R/`**:
+- **`examples-R/`**:
   - `custom_dataset.R`: Create a custom *tidy* dataset from the original
-    one, treating duplicate entries differently.
+    one, for treating duplicate entries differently.
   - `example.R`: Examples of how to use the dataset for sentiment
     analysis on a sample text.
   - `uso.md`: Instructions for using the dataset in R (in Italian),
@@ -86,9 +86,9 @@ WordNet and SentiWordNet.
 - **`synset`**: The symbolic and human-readable name
   (`lemma.pos.sense_number`). This identifier is more stable across
   versions than the offset, which may be reassigned during WordNet
-  updates (cf. Kafe 2017). The Italian WordNet has not been updated
-  beyond version 1.6, so this information may be important (cf. Basile
-  and Nissim 2013).
+  updates (cf. Kafe 2017). This information may be important,
+  considering that MultiWordNet has not been updated beyond version 1.6
+  of WordNet (cf. Basile and Nissim 2013).
 - **`pos_score`**: The positivity score of the synset, ranging from 0.0
   to 1.0.
 - **`neg_score`**: The negativity score of the synset, ranging from 0.0
@@ -127,7 +127,8 @@ no longer applies.
 However, it is possible to reconstruct the *tidy* dataset from the
 original dataset, treating duplicate entries differently.
 
-See the script `custom_dataset.R` in the `R` folder for details.
+See the script `custom_dataset.R` in the `examples-R` folder for
+details.
 
 ## License
 
@@ -154,7 +155,7 @@ and Opinion Mining.” In *Lrec*, 10:2200–2204. 2010. Valletta.
 Basile, Valerio, and Malvina Nissim. 2013. “Sentiment Analysis on
 Italian Tweets.” In *Proceedings of the 4th Workshop on Computational
 Approaches to Subjectivity, Sentiment and Social Media Analysis*,
-100–107.
+100–107. <https://aclanthology.org/W13-1614/>.
 
 </div>
 

@@ -1,4 +1,4 @@
-## Custom dataset based on SentiWordNet it
+## Custom dataset based on swn_it
 ## september 2025
 ## author: avardanega@unite.it
 
