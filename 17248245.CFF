@@ -1,0 +1,56 @@
+abstract: '<p dir="auto">This repository contains a sentiment lexicon for Italian,
+  based on SentiWordNet 3.0 (Baccianella, Esuli, and Sebastiani 2010; Esuli [2019]
+  2025) and MultiWordNet (Pianta, Bentivogli, and Girardi 2002).</p>
+
+  <p dir="auto">The included files, in the&nbsp;<code>data/</code>&nbsp;folder are:</p>
+
+  <ul>
+
+  <li><strong><code>swn_it.csv</code></strong>: A dataset of&nbsp;<strong>35,001 Italian
+  synsets</strong>&nbsp;with polarity scores, POS, synset, offset, English synset
+  lemmas, and gloss (in English).</li>
+
+  <li><strong><code>swn_it_tidy.csv</code></strong>: A&nbsp;<em>tidy</em>&nbsp;(<em>one
+  token per row</em>) dataset of&nbsp;<strong>41,725 lemmas</strong>, with polarity
+  scores. It is designed for use in R.</li>
+
+  </ul>
+
+  <p dir="auto">It also contains a folder with examples in R, and scripts to use and
+  manipulate the datasets:</p>
+
+  <ul>
+
+  <li><strong><code>examples-R/</code></strong>:
+
+  <ul>
+
+  <li><code>custom_dataset.R</code>: Create a custom&nbsp;<em>tidy</em>&nbsp;dataset
+  from the original one, for treating duplicate entries differently.</li>
+
+  <li><code>example.R</code>: Examples of how to use the dataset for sentiment analysis
+  on a sample text.</li>
+
+  <li><code>uso.md</code>: Instructions for using the dataset in R (in Italian), referred
+  to in&nbsp;<code>example.R</code>.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>'
+authors:
+- affiliation: University of Teramo
+  family-names: Agnese Vardanega
+cff-version: 1.2.0
+date-released: '2025-09-19'
+doi: 10.5281/zenodo.17248245
+identifiers:
+- type: swh
+  value: swh:1:dir:baf5f160010f552a38847c711609b2b83eea7e4d;origin=https://doi.org/10.5281/zenodo.17248244;visit=swh:1:snp:db9a02bec42080359971c5a4f71faa2908c36efd;anchor=swh:1:rel:a15e7197f7f5bb2a1546a2d9a3ced6d0ad258458;path=agnesevardanega-sentiwordnet_it-5c57461
+license:
+- cc-by-sa-4.0
+message: If you use this dataset, please cite it using the metadata from this file.
+title: sentiwordnet_it 1.0
+type: dataset
+version: v1.0.1

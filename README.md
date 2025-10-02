@@ -1,7 +1,9 @@
 # SentiWordNet It (swn_it)
 
 
-[![](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-orange.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17248245.svg)](https://doi.org/10.5281/zenodo.17248245)
+[![License: CC BY
+4.0](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 A sentiment lexical resource for Italian, based on SentiWordNet 3.0 and
 MultiWordNet.
@@ -129,6 +131,14 @@ original dataset, treating duplicate entries differently.
 
 See the script `custom_dataset.R` in the `examples-R` folder for
 details.
+
+## How to Cite
+
+If you use *sentiwordnet_it 1.0* in your research, please cite it as
+follows:
+
+Agnese Vardanega. (2025). sentiwordnet_it 1.0 (v1.0.1) \[Data set\].
+Zenodo. https://doi.org/10.5281/zenodo.17248245
 
 ## License
 
