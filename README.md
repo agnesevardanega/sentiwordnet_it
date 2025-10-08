@@ -1,7 +1,7 @@
 # SentiWordNet It (swn_it)
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17248245.svg)](https://doi.org/10.5281/zenodo.17248245)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17248244.svg)](https://doi.org/10.5281/zenodo.17248244)
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -13,6 +13,15 @@ MultiWordNet.
 This repository contains a sentiment lexicon for Italian, based on
 SentiWordNet 3.0 (Baccianella, Esuli, and Sebastiani 2010; Esuli
 \[2019\] 2025) and MultiWordNet (Pianta, Bentivogli, and Girardi 2002).
+
+Unlike previous resources—SentiWordNet, which provides sentiment scores
+without Italian lexical coverage, and MultiWordNet, which offers Italian
+synsets without sentiment annotation—this dataset bridges the two by
+mapping Italian lexical entries to sentiment scores in a ready-to-use
+CSV format.
+
+This integration enables direct use in sentiment analysis and other NLP
+applications for Italian, filling a gap in existing resources.
 
 The included files, in the `data/` folder are:
 
@@ -138,7 +147,7 @@ If you use *sentiwordnet_it 1.0* in your research, please cite it as
 follows:
 
 Agnese Vardanega. (2025). sentiwordnet_it 1.0 (v1.0.1) \[Data set\].
-Zenodo. https://doi.org/10.5281/zenodo.17248245
+Zenodo. https://doi.org/10.5281/zenodo.17248244
 
 ## License
 
